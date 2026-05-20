@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+agent/.env
+
+# Build
+web/.next/
+web/out/
+
+# Data
+agent/post_history.json
+agent/post_history.lock
+agent/post_history.tmp
+agent/scraped_posts.json
+agent/report.html
+
+# IDE
+.superpowers/
+.enzyme/
+.claude/
+
+# OS
+.DS_Store
