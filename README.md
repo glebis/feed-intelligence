@@ -2,9 +2,19 @@
 
 LinkedIn feed analyzer for content strategy. Scrapes your feed via Chrome, classifies posts with Claude, and generates a dark-themed intelligence report with actionable recommendations.
 
-Built with [Claude Agent SDK](https://claude.salient.community/) + Next.js.
+Built as a project within [Claude Code Lab](https://claude.salient.community/) using Claude Agent SDK + Next.js.
 
 By [Gleb Kalinin](https://github.com/glebis).
+
+## Claude Code Skills Used
+
+This project relies on several Claude Code skills working together:
+
+- **[agent-sdk-dev](/agent-sdk-dev)** — scaffolded the Python Agent SDK application
+- **[real-browser](/real-browser)** — Chrome Beta automation with persistent login sessions for LinkedIn scraping
+- **[superpowers:brainstorming](/superpowers:brainstorming)** — design exploration with visual companion for dashboard layout
+- **[impeccable](/impeccable)** — frontend design critique and iteration
+- **[codex](/codex)** — security audits via OpenAI Codex CLI (XSS, auth, race conditions)
 
 ## Architecture
 
