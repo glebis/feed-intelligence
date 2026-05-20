@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0a0c;
+  --surface: #0f0f12;
+  --border: #1a1a1e;
+  --text: #e0e0e0;
+  --text-dim: #666;
+  --text-muted: #444;
+  --accent: #c0392b;
+  --accent-hover: #e74c3c;
+  --blue: #0077b5;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.mono {
+  font-family: var(--font-mono), monospace;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
